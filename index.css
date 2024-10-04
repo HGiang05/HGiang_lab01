@@ -1,0 +1,120 @@
+
+body{
+    background-color: whitesmoke;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.anh {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 34%;
+}
+
+.anh img {
+    border-radius: 15px; 
+    width: 100%;
+    margin-top: 15px;
+}
+
+.anh1{
+    margin-right: 15px ;
+}
+.anh2{
+    margin-right: 15px;
+}
+.anh3{
+    margin-left: 5px;
+}
+
+
+.center img {
+    width: 100%;
+}
+
+.center h1 {
+    font-size: 34px;
+}
+.center h2{
+    font-size: 75px;
+    color: red;
+}
+
+.center p {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.absolute1 {
+    position: absolute;   
+    bottom: 29%;
+    left: 42%;
+}
+
+.absolute2 {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 65px;
+    color: red;
+    
+
+}
+
+.menu{
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.menu img {     
+    width: 100px;
+   
+}
+.menu .left img{
+    width: 90px;
+}
+
+
+.menu div {
+    display: inline-block;
+
+}
+
+.menu2 {
+    display: block;
+    display: grid;
+    grid-template-columns: 68% 35%;
+}
+.menu2 p{
+    font-size: 20px;
+}
+.menu2 h2{
+    font-size: 25px;
+}
+.right{
+    display:flex;
+    margin-left: auto;
+    float: right;
+    
+}
+.right1{
+   display:flex;
+   margin-left: auto;
+   margin-top: -20px;
+}
+.right > * {
+    vertical-align:middle; 
+}
+.right1 div{
+    padding-top: 10px;
+}
+.right1 a{
+    font-size: 20px;
+    float: right;
+    padding-right: 25px;
+    color: black;
+    text-decoration: none;
+    
+}
+
