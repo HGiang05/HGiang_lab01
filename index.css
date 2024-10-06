@@ -1,0 +1,121 @@
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.center h1 {
+    font-size: 30px;
+}
+
+.center p {
+    font-style: 20px;
+    font-size: 22px;
+    margin: 20px 0;
+    font-weight: normal;
+
+}
+
+.center img {
+    width: 100%;
+}
+
+.anh {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.6%;
+}
+
+.anh img {
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.anh1 {
+    margin-right: 15px;
+}
+
+.anh2 {
+    margin-right: 15px;
+}
+
+.anh3 {
+    margin-left: 15px;
+}
+
+.menu2 {
+    display: block;
+    display: grid;
+    grid-template-columns: 67% 30%;
+}
+
+.menu2 p {
+    font-size: 20px;
+}
+
+.menu2 h3 {
+    font-size: 26px;
+}
+
+.center .absolute1 {
+    position: absolute;
+    bottom: 43%;
+    right: 46%;
+    font-size: 25px;
+}
+
+.center .absolute2 {
+    position: absolute;
+    bottom: 32%;
+    right: 41%;
+    font-size: 60px;
+    color: red;
+}
+
+.menu1 {
+    /* display: inline-block; */
+    display: grid;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.right {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: auto;
+    float: right;
+    margin-top: -100px;
+}
+
+.left img {
+    width: 80px;
+}
+
+.right img {
+    width: 90px;
+    padding-top: -30px;
+}
+
+.right1 {
+    display: flex;
+    margin-left: auto;
+}
+
+.menu1 .right div {
+    padding-top: 10px;
+}
+
+.menu1 .left div {
+    width: 50px;
+}
+
+.right1 a {
+    float: right;
+    text-decoration: none;
+    color: black;
+    padding-right: 45px;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
